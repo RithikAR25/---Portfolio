@@ -14,7 +14,6 @@ function App() {
   <Banner/>
   <Navbar/>
   <Section1/>
-  
   <Section_Skills/>
   <Section_Project/>
   <Section_Contact/>
