@@ -1,10 +1,11 @@
-import Banner from "./Components/Banner/Banner";
+import Banner from "./Pages/Banner";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
-import Section1 from "./Components/Section1/Section1";
-import Section_Contact from "./Components/Section_contact/Section_Contact";
-import Section_Project from "./Components/Section_Project/Section_Project";
-import Section_Skills from "./Components/Section_skill/Section_Skills";
+import Section1 from "./Pages/Section1";
+import Section_Contact from "./Pages/Section_Contact";
+import Section_Project from "./Pages/Section_Project";
+import Section_Skills from "./Pages/Section_Skills";
+
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   <Banner/>
   <Navbar/>
   <Section1/>
+  
   <Section_Skills/>
   <Section_Project/>
   <Section_Contact/>

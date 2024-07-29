@@ -115,7 +115,7 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
     .Section1 {
         flex-direction: column;
         height: auto;

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import styles from './Section_Contact.module.css'
-import ContactForm from './ContactForm'
+import styles from '../Components/Section_contact/Section_Contact.module.css'
+import ContactForm from '../Components/Section_contact/ContactForm'
 
 const Section_Contact = () => {
   return (

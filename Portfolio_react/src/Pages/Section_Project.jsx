@@ -1,16 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
-import styles from './Section_Project.module.css';
-import Card from './Card';
-import gameImage from '../../assets/image/images34 (2).jpg';
-import gameImage2 from '../../assets/image/dataset-cover.jpg';
-import gameImage3 from '../../assets/image/abstract-digital-art-minimalism-simple-background-wallpaper-preview.jpg';
-import gameImage4 from '../../assets/image/360_F_434292902_5e5dFMkx6TfjRBDoJXqRyiNShhQ07RY2.jpg';
-import gameImage5 from '../../assets/image/project-tracking-goal-tracker-task-completion-checklist-to-remind-progress-concept-businessman-manager-holding-big-pencil-check-259091771.webp';
-import gameImage6 from '../../assets/image/1520091921488.jpg';
+import styles from '../Components/Section_Project/Section_Project.module.css';
+import Card from '../Components/Section_Project/Card';
+import gameImage from '../../src/assets/image/images34 (2).jpg';
+import gameImage2 from '../../src/assets/image/dataset-cover.jpg';
+import gameImage3 from '../../src/assets/image/abstract-digital-art-minimalism-simple-background-wallpaper-preview.jpg';
+import gameImage4 from '../../src/assets/image/360_F_434292902_5e5dFMkx6TfjRBDoJXqRyiNShhQ07RY2.jpg';
+import gameImage5 from '../../src/assets/image/project-tracking-goal-tracker-task-completion-checklist-to-remind-progress-concept-businessman-manager-holding-big-pencil-check-259091771.webp'
+import gameImage6 from '../../src/assets/image/1520091921488.jpg';
 // Import the SVG icons as URLs
-import leftArrow from '../../assets/Icon/arrow-thin-chevron-left-icon.svg';
-import rightArrow from '../../assets/Icon/arrow-thin-chevron-right-icon.svg';
+import leftArrow from '../../src/assets/Icon/arrow-thin-chevron-left-icon.svg';
+import rightArrow from '../../src/assets/Icon/arrow-thin-chevron-right-icon.svg';
 
 const Section_Project = () => {
   // Reference to the card container for scrolling

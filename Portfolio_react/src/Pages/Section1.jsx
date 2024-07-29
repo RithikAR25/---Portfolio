@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from 'react';
-import styles from './Section1.module.css';
-import profileImage from '../../assets/image/MicrosoftTeams-image (2).png'; // Adjusted filename
-import Social_follow from './Social_follow';
+import styles from '../Components/Section1/Section1.module.css';
+import profileImage from '../../src/assets/image/MicrosoftTeams-image (2).png'; // Adjusted filename
+import Social_follow from '../Components/Section1/Social_follow';
 
 const Section1 = () => {
   const [isContainer1Visible, setIsContainer1Visible] = useState(false);

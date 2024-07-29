@@ -1,19 +1,19 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
-import styles from './Section_Skills.module.css';
-import unityIcon from '../../assets/Icon/icons8-unity.svg';
-import unityIcon1 from '../../assets/Icon/icons8-c-sharp-logo.svg';
-import unityIcon2 from '../../assets/Icon/icon-1.png';
-import unityIcon3 from '../../assets/Icon/icons8-css.svg';
-import unityIcon4 from '../../assets/Icon/icon-3.png';
-import unityIcon5 from '../../assets/Icon/icons8-c++.svg';
-import unityIcon6 from '../../assets/Icon/icons8-react-js.svg';
-import unityIcon7 from '../../assets/Icon/icons8-java.svg';
-import unityIcon8 from '../../assets/Icon/icons8-c-programming.svg';
+import styles from '../Components/Section_skill/Section_Skills.module.css';
+import unityIcon from '../../src/assets/Icon/icons8-unity.svg';
+import unityIcon1 from '../../src/assets/Icon/icons8-c-sharp-logo.svg';
+import unityIcon2 from '../../src/assets/Icon/icon-1.png';
+import unityIcon3 from '../../src/assets/Icon/icons8-css.svg';
+import unityIcon4 from '../../src/assets/Icon/icon-3.png';
+import unityIcon5 from '../../src/assets/Icon/icons8-c++.svg';
+import unityIcon6 from '../../src/assets/Icon/icons8-react-js.svg';
+import unityIcon7 from '../../src/assets/Icon/icons8-java.svg';
+import unityIcon8 from '../../src/assets/Icon/icons8-c-programming.svg';
 
 // Import the SVG icons as URLs
-import leftArrow from '../../assets/Icon/line-angle-left-icon (1).svg';
-import rightArrow from '../../assets/Icon/line-angle-right-icon.svg';
+import leftArrow from '../../src/assets/Icon/line-angle-left-icon (1).svg';
+import rightArrow from '../../src/assets/Icon/line-angle-right-icon.svg';
 
 const Section_Skills = () => {
   const cardContainerRef = useRef(null);
